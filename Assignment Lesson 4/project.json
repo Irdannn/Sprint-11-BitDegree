@@ -1,0 +1,22 @@
+[
+    {
+        "fullname": "Ben Smith",
+        "age": 32,
+        "height": "180Cm",
+        "position": "Senior Web Developer",
+        "location": "London"
+    },
+    {
+        "fullname": "Jane Doe",
+        "age": 35,
+        "height": "170Cm",
+        "position": "Project Lead",
+        "location": "London"
+    },
+    {
+        "fullname": "Rob Smith",
+        "age": 26,
+        "position": "Web Developer", 
+        "location": "New York"
+    }
+]
