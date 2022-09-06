@@ -1,0 +1,71 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+
+  }
+  html,body{
+    display: grid;
+    place-items: center;
+    background-color: #000000;
+  }
+
+  #dayContainer{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 7px solid #303030;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    background: linear-gradient(147deg, #3faa6b, #5c5353);
+    color: rgb(202, 255, 9);
+}
+  .container{
+    height: 120px;
+    width: 550px;
+    position: relative;
+    /* background: linear-gradient(270deg, #ffffff, #6284FF, #FF0000); */
+    border-radius: 10px;
+    cursor: default;
+    border: 7px solid #303030;
+  }
+  .container .digitalClock,
+  .container {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container .digitalClock{
+    top: 50%;
+    height: 105px;
+    width: 535px;
+    background: linear-gradient(147deg, #3faa6b, #5c5353);
+    border-radius: 6px;
+    text-align: center;
+  }
+  .digitalClock #time{
+    line-height: 85px;
+    color: rgb(202, 255, 9);
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    background: linear-gradient(90deg, #ffffff, #6284FF, #FF0000);
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+  }
+
+  #Title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
+  }
