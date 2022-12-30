@@ -9,7 +9,7 @@ const callMe = (firstName, callback) => {
     return callback(fullName);
   }, 1000);
 };
-callMe('Ben', console.log);
+callMe('irdan', console.log);
 callMe(null, console.log);
 
 const c2promise = firstName => {
@@ -22,5 +22,5 @@ const c2promise = firstName => {
   })
 }
 
-c2promise('Ben').then(console.log)
+c2promise('diana').then(console.log)
 c2promise().catch(console.log)
